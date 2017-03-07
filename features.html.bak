@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>组织架构</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="西安安诚电力工程有限公司" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--<link href='http://fonts.useso.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+	
+  </script>
+
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+<script src="js/bootstrap.js"></script>
+</head>
+<body>
+<!-- header -->
+<div class="header" id="home">
+	
+		<div class="header-top">
+		<div class="container">
+			<div class="icon">
+				<ul>
+				  <li><i class="message"></i></li>
+					<li><a href="mailto:example@mail.com">Info@Seen.com</a></li>
+						<li><i class="phone"></i></li>
+							<li><p>+00(123)4567890</p</li>
+				</ul>
+		</div>
+				<div class="social-icons">
+				<a href="#"><i class="icon1"></i></a>
+					<a href="#"><i class="icon2"></i></a>
+						<a href="#"><i class="icon3"></i></a>
+							<a href="#"><i class="icon4"></i></a>
+								<a href="#"><i class="icon5"></i></a>
+									<a href="#"><i class="icon6"></i></a>
+								</div>
+								</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="container">
+		<div class="header-bottom">
+	   <nav class="navbar navbar-default">
+							<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+									  </button>
+									<div class="navbar-brand">
+										<h1><a href="index.html"><img class="logo" src="images/logo.jpg" alt="西安安诚电力工程有限公司"/></a></h1>
+									</div>
+								</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							   <ul class="nav navbar-nav">
+									<li><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+									<li><a href="pages.html">公司简介</a></li>
+									<li class="active"><a href="features.html">组织架构</a></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">业务范围<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="portfolio.html">风力发电领域</a></li>
+											<li><a href="portfolio.html">火力发电领域</a></li>
+											<li><a href="portfolio.html">光伏发电领域</a></li>
+										</ul>
+									</li>
+									<li><a href="blog.html">施工业绩</a></li>
+									<li><a href="cpstrength.html">公司实力</a></li>
+									
+									<li><a href="contact.html">联系方式</a></li>
+								</ul>
+							  
+							</div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+						</nav>
+
+					</div>
+	</div>
+</div>
+
+ <!-- header-section-ends --> 
+	<div class="header-slider">
+		<div class="slider">
+			<div class="callbacks_container">
+			  <ul class="rslides" id="slider">
+				<li>
+				  <img src="images/公司介绍/banner2.jpg" alt="">
+				  <div class="caption">
+
+				  </div>
+				</li>
+			</ul>
+		  </div>
+	  </div>
+	 </div>
+	 </div>
+
+
+	<!-- 组织结构介绍文字 -->
+	<div class="main page-not-found text-center">
+		<div class="container">
+			<p>中国华电集团公司（以下简称“中国华电”）是2002年底国家电力体制改革组建的全国性五家国有独资发电企业集团之一，属于国务院国资委监管的特大型中央企业，主营业务为：电力生产、热力生产和供应；与电力相关的煤炭等一次能源开发以及相关专业技术服务。近年来，公司深入贯彻落实党中央、国务院各项决策部署和国家能源战略，加快结构调整，着力提质增效，深化改革创新，加强党的建设，综合实力不断增强，行业地位明显提升，2016年在世界500强排名第331位。</p>
+
+		</div>
+   </div>
+   <!-- 组织结构介绍文字 -->		
+	
+
+	<div class="wantto-section">
+				<div class="container">
+					<!--<h4>联系方式</h4>-->
+						<span>地址：陕西省西安市高新区唐延路旺座现代城E-2601室</span><br/>
+						<span>电话：029-88341667</span><br/>
+						<span>传真：029-88341667</span><br/>
+						<!--<a href="#" class="hvr-rectangle-in">get in touch</a>-->
+					</div>
+				</div>
+
+
+
+
+	 <div class="footer-section">
+					<div class="container">
+						<div class="footer-center">
+							<p>版权所有&copy; 2017. 西安安诚电力工程有限公司</p>
+						</div>
+							
+							<div class="clearfix"></div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>				
+				</div>
+</body>
+</html>

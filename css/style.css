@@ -2175,7 +2175,7 @@ background: rgba(245, 245, 245, 0.9);
 			font-size: 1.5em;
 		}
 		#portfoliolist .portfolio {
-			width: 50%;
+			width: 100%;
 		}
 		#filters li span {
 			padding: 5px 15px;

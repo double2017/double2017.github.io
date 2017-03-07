@@ -1,0 +1,591 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>首页</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="西安安诚电力工程有限公司" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--<link href='http://fonts.useso.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+	
+  </script>
+
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+<script src="js/bootstrap.js"></script>
+<style>
+	.img-carousel{
+		width:270px !important;
+		height:165px !important;
+	}
+</style>
+</head>
+<body>
+<!-- header -->
+<div class="header" id="home">
+	
+		<div class="header-top">
+		<div class="container">
+			<div class="icon">
+				<ul>
+				  <li><i class="message"></i></li>
+					<li><a href="mailto:example@mail.com">Info@Seen.com</a></li>
+						<li><i class="phone"></i></li>
+							<li><p>029-88341667</p></li>
+				</ul>
+		</div>
+				<div class="social-icons">
+				<a href="#"><i class="icon1"></i></a>
+					<a href="#"><i class="icon2"></i></a>
+						<a href="#"><i class="icon3"></i></a>
+							<a href="#"><i class="icon4"></i></a>
+								<a href="#"><i class="icon5"></i></a>
+									<a href="#"><i class="icon6"></i></a>
+								</div>
+								</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="container">
+	   <div class="header-bottom">
+	   <nav class="navbar navbar-default">
+							<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+									  </button>
+									<div class="navbar-brand">
+										<h1><a href="index.html"><img class="logo" src="images/logo.jpg" alt="西安安诚电力工程有限公司"/></a></h1>
+									</div>
+								</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							  <ul class="nav navbar-nav">
+									<li class="active"><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+									<li><a href="pages.html">公司简介</a></li>
+									<li><a href="features.html">组织架构</a></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">业务范围<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="portfolio.html">风力发电领域</a></li>
+											<li><a href="portfolio.html">火力发电领域</a></li>
+											<li><a href="portfolio.html">光伏发电领域</a></li>
+										</ul>
+									</li>
+									<li><a href="blog.html">施工业绩</a></li>
+									<li><a href="cpstrength.html">公司实力</a></li>
+									
+									<li><a href="contact.html">联系方式</a></li>
+								</ul>
+							  
+							</div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+						</nav>
+
+					</div>
+			</div>
+		</div>
+        <div class="copyrights">@ <a href="http://www.cssmoban.com/" >西安安诚电力工程有限公</a></div>
+
+ <!-- header-section-ends --> 
+	<div class="header-slider">
+		<div class="slider">
+			<div class="callbacks_container">
+			  <ul class="rslides" id="slider">
+				<li>
+				  <img src="images/首页顶部/banner.jpg" alt="" width="" height="600">
+				  <div class="caption">
+					<h3 style="color:#DD971B">西安安诚电力工程有限公</h3>
+					<p style="color:#DD971B;font-weight:bold;">西安安诚电力工程有限公,是一家由自然人出资组建的高科技企业</p>			
+				  </div>
+				</li>
+				<li>
+				  <img src="images/首页顶部/banner1.jpg" alt="" width="" height="600">
+					<div class="caption">
+					<h3 style="color:#DD971B">企业宗旨</h3>
+					<p style="color:#DD971B;font-weight:bold;">用户至上，技术先导，真诚服务！</p>
+				</div>
+				</li>
+			</ul>
+		  </div>
+	  </div>
+	 </div>
+	 </div>
+				<div class="beautifull">
+				<div class="container">
+				<div class="beautifull-header">
+					<h4>西安安诚电力工程有限公司</h4>
+						<p></p>
+						</div>
+					<div class="beautifull-grids">
+						<div class="col-md-4 beautiful-grid">
+							<div class="icon1">
+								<!--<i class="heart"></i>-->
+									</div>
+									<div class="passion">
+									<h4>公司简介</h4>
+									<p>中国华电集团公司（以下简称“中国华电”）是2002年底国家电力体制改革组建的全国性五家国有独资发电企业集团之一，属于国务院国资委监管的特大型中央企业，主营业务为：电力生产、热力生产和供应；与电力相关的煤炭等一次能源开发以及相关专业技术服务。近年来，公司深入贯彻落实党中央、国务院各项决策部署和国家能源战略，加快结构调整，着力提质增效，深化改革创新，加强党的建设，综合实力不断增强，行业地位明显提升，2016年在世界500强排名第331位。</p>
+								</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-4 beautiful-grid">
+							<div class="icon1">
+								<!--<i class="lamp"></i>-->
+								</div>
+									<div class="passion">
+									<h4>组织架构</h4>
+									<p>中国华电集团公司（以下简称“中国华电”）是2002年底国家电力体制改革组建的全国性五家国有独资发电企业集团之一，属于国务院国资委监管的特大型中央企业，主营业务为：电力生产、热力生产和供应；与电力相关的煤炭等一次能源开发以及相关专业技术服务。近年来，公司深入贯彻落实党中央、国务院各项决策部署和国家能源战略，加快结构调整，着力提质增效，深化改革创新，加强党的建设，综合实力不断增强，行业地位明显提升，2016年在世界500强排名第331位。</p>
+								</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-4 beautiful-grid">
+							<div class="icon1">
+								<!--<i class="star"></i>-->
+								</div>
+									<div class="passion">
+									<h4>业务范围</h4>
+									<p>中国华电集团公司（以下简称“中国华电”）是2002年底国家电力体制改革组建的全国性五家国有独资发电企业集团之一，属于国务院国资委监管的特大型中央企业，主营业务为：电力生产、热力生产和供应；与电力相关的煤炭等一次能源开发以及相关专业技术服务。近年来，公司深入贯彻落实党中央、国务院各项决策部署和国家能源战略，加快结构调整，着力提质增效，深化改革创新，加强党的建设，综合实力不断增强，行业地位明显提升，2016年在世界500强排名第331位。</p>
+								</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				</div>
+				</div>
+					<div class="checkout-section">
+						<div class="container-fluid">
+							<div class="checkout-header">
+							<h4>施工业绩</h4>
+							<p>西安安诚电力工程有限公司，在风力发电领域、火力发电领域和光伏发电领域有着良好的口碑</p>
+							</div>
+							<div id="portfoliolist">
+					<div class="row">
+					<div class="col-sm-6 portfolio">
+						<div class="portfolio-wrapper">		
+							<a href="#small-dialog1" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img class="work-img" src="images/首页中间/img1.jpg" alt="" width="700" height="704"/><div class="b-wrapper"><h2 style="margin-top:140px;" class="b-animate b-from-left    b-delay03 "><img src="images/icon-eye.png" alt=""/></h2><h2 class="b-animate b-from-bottom    b-delay03 ">光伏发电领域</h2>
+							</div></a>
+		                </div>
+							<!--<div class="bottom-header">
+							<h5>风力发电领域</h5>
+								<p>从2000年开始</p>
+							</div>-->
+					</div>	
+						<div class="col-sm-6">
+							<div class="row">
+								 <div class="col-sm-12 portfolio">
+									<div class="portfolio-wrapper">		
+										<a href="#small-dialog2" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+										 <img class="work-img" src="images/首页中间/img2.jpg" alt="" width="700" height="342"/><div class="b-wrapper"><h2 style="margin-top:80px;" class="b-animate b-from-left    b-delay03 "><img src="images/icon-eye.png" alt=""/></h2>
+										 <h2 class="b-animate b-from-bottom    b-delay03 ">水力发电领域</h2>
+										</div></a>
+									<!--<div class="bottom-header">
+									<h5>火力发电领域</h5>
+										<p>从2000年开始</p>
+										</div>-->
+									</div>
+								</div>
+								
+
+								<div class="col-sm-12 portfolio">
+									<div class="portfolio-wrapper">		
+										<a href="#small-dialog3" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+										 <img class="work-img" src="images/首页中间/img3.jpg" alt="" width="700" height="342"/><div class="b-wrapper"><h2 style="margin-top:80px;" class="b-animate b-from-left    b-delay03 "><img src="images/icon-eye.png" alt=""/></h2>
+										 <h2 class="b-animate b-from-bottom    b-delay03 ">水力发电领域</h2>
+										</div></a>
+									<!--<div class="bottom-header">
+									<h5>火力发电领域</h5>
+										<p>从2000年开始</p>
+										</div>-->
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-sm-6 portfolio">
+						<div class="portfolio-wrapper">		
+							<a href="#small-dialog4" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img class="work-img" src="images/首页中间/img4.jpg" alt="" width="700" height="346"/><div class="b-wrapper"><h2 style="margin-top:-40px;" class="b-animate b-from-left    b-delay03 "><img src="images/icon-eye.png" alt=""/></h2>
+							</div></a>
+		                </div>
+							<!--<div class="bottom-header">
+							<h5>水力发电领域</h5>
+								<p>从2000年开始</p>
+							</div>-->
+					</div>	
+					</div>			
+					<div class="row">
+					<div class="col-sm-6 portfolio">
+						<div class="portfolio-wrapper">		
+							<a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img class="work-img" src="images/首页中间/img5.jpg" alt="" width="700" height="342"/><div class="b-wrapper"><h2 style="margin-top:-40px;" class="b-animate b-from-left    b-delay03 "><img src="images/icon-eye.png" alt=""/></h2>
+							</div></a>
+		                </div>
+							<!--<div class="bottom-header">
+							<h5>光伏发电领域</h5>
+								<p>从2000年开始</p>
+							</div>-->
+					</div>	
+
+					<div class="col-sm-6 portfolio">
+						<div class="portfolio-wrapper">		
+							<a href="#small-dialog6" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img class="work-img" src="images/首页中间/img6.jpg" alt="" width="700" height="342"/><div class="b-wrapper"><h2 style="margin-top:-40px;" class="b-animate b-from-left    b-delay03 "><img src="images/icon-eye.png" alt=""/></h2>
+							</div></a>
+		                </div>
+							<!--<div class="bottom-header">
+							<h5>水力发电领域</h5>
+								<p>从2000年开始</p>
+							</div>-->
+					</div>	
+					</div>	
+<div class="clearfix"></div>					
+				</div>
+				<script>
+
+					$(".b-link-stripe").mouseenter(function(){
+
+					$(this).css("margin-left","-20px");
+					});
+					$(".b-link-stripe").mouseleave(function(){
+
+					$(this).css("margin-left","0px");
+					});
+
+
+				</script>
+
+				<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+			<!-- //pop-up-box -->
+			<div id="small-dialog1" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/首页中间/img1.jpg" alt="" />
+							<span>光伏发电组的前期调研及指导工作(包括勘测、施工及安装等)</span>
+							<span>光伏发电组的调试、维护及定期检修等</span>
+							<span>光伏发电组的维保</span>
+							<span>光伏发电专业培训及技术咨询等</span>
+							<span>光伏发电板的清洗等</span>
+						</div>
+					</div>
+					<div id="small-dialog2" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/首页中间/img2.jpg" alt="" />
+							<span>火电厂、化工项目动力站工程、供热锅炉分系统以及整套机组的启动调试</span>
+							<span>运行监护、托管运营、保运、代运等</span>
+							<span>火电厂、化工项目动力站工程、供热锅炉等工程技术服务</span>
+							<span>锅炉项目的技术咨询与评估服务</span>
+							<span>工程技术培训</span>
+						</div>
+					</div>
+					
+					<div id="small-dialog3" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/首页中间/img3.jpg" alt="" />
+							<span>风力发电机组的前期调研及指导工作(包括勘测、吊装等)</span>
+							<span>风力发电机组的调试、维护及定检等</span>
+							<span>风力发电机组的维保</span>
+							<span>风力发电机组的备件销售</span>
+							<span>风力发电机专业培训等</span>
+						</div>
+					</div>
+
+					<div id="small-dialog4" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/首页中间/img4.jpg" alt="" />
+							<span>风力发电机组的前期调研及指导工作(包括勘测、吊装等)</span>
+							<span>风力发电机组的调试、维护及定检等</span>
+							<span>风力发电机组的维保</span>
+							<span>风力发电机组的备件销售</span>
+							<span>风力发电机专业培训等</span>
+						</div>
+					</div>
+					<div id="small-dialog5" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/首页中间/img5.jpg" alt="" />
+							<span>火电厂、化工项目动力站工程、供热锅炉分系统以及整套机组的启动调试</span>
+							<span>运行监护、托管运营、保运、代运等</span>
+							<span>火电厂、化工项目动力站工程、供热锅炉等工程技术服务</span>
+							<span>锅炉项目的技术咨询与评估服务</span>
+							<span>工程技术培训</span>
+						</div>
+					</div>
+					<div id="small-dialog6" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/首页中间/img6.jpg" alt="" />
+							<span>光伏发电组的前期调研及指导工作(包括勘测、施工及安装等)</span>
+							<span>光伏发电组的调试、维护及定期检修等</span>
+							<span>光伏发电组的维保</span>
+							<span>光伏发电专业培训及技术咨询等</span>
+							<span>光伏发电板的清洗等</span>
+						</div>
+					</div>
+			<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>		
+	<!-- Work Ends Here -->
+	
+
+				
+				
+				<div class="screen-shots">
+					<!--sreen-gallery-cursual-->
+						<div class="sreen-gallery-cursual">
+							<!-- start content_slider -->
+						       <div id="owl-demo" class="owl-carousel">
+					                <div class="item">
+					                	<div class="item-grid">
+					                		<div class="item-pic">
+					                			<img class="img-carousel" src="images/首页底部/pic1.jpg"/>
+					                		</div>
+					                	</div>
+					                </div>
+					                <div class="item">
+					                	<div class="item-grid">
+					                		<div class="item-pic">
+					                			<img class="img-carousel" src="images/首页底部/pic2.jpg" />
+                                               </div>
+					                		</div>
+					                </div>
+					                 <div class="item">
+					                	<div class="item-grid">
+					                		<div class="item-pic">
+					                			<img class="img-carousel" src="images/首页底部/pic3.jpg" />
+                                               </div>
+					                		</div>
+					                	</div>
+					               <div class="item">
+					                	<div class="item-grid">
+					                		<div class="item-pic">
+					                			<img class="img-carousel" src="images/首页底部/pic4.jpg" />
+                                               </div>
+					                		</div>
+					                	</div>
+					                 <div class="item">
+					                	<div class="item-grid">
+					                		<div class="item-pic">
+					                			<img class="img-carousel" src="images/首页底部/pic5.jpg" />
+                                               </div>
+					                		</div>
+					                	</div>
+					                 <div class="item">
+					                	<div class="item-grid">
+					                		<div class="item-pic">
+					                			<img class="img-carousel" src="images/首页底部/pic6.jpg" />
+                                               </div>
+					                		</div>
+					                	</div>
+					               <div class="item">
+					                	<div class="item-grid">
+					                		<div class="item-pic">
+					                			<img class="img-carousel" src="images/首页底部/pic7.jpg" />
+                                               </div>
+					                		</div>
+					                	</div>
+					                 <div class="item">
+					                	<div class="item-grid">
+					                		<div class="item-pic">
+					                			<img class="img-carousel" src="images/首页底部/pic8.jpg" />
+                                               </div>
+					                		</div>
+					                	</div>
+										<div class="item">
+					                	<div class="item-grid">
+					                		<div class="item-pic">
+					                			<img class="img-carousel" src="images/首页底部/pic9.jpg" />
+					                		</div>
+					                	</div>
+					                </div>
+					                
+					               </div>
+				              </div>
+						<!--//sreen-gallery-cursual-->
+					</div>
+				<!-- requried-jsfiles-for owl -->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items :4,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+							  <!-- //requried-jsfiles-for owl -->
+
+				</div>
+			</div>
+			<div class="wantto-section">
+				<div class="container">
+					<!--<h4>联系方式</h4>-->
+						<span>地址：陕西省西安市高新区唐延路旺座现代城E-2601室</span><br/>
+						<span>电话：029-88341667</span><br/>
+						<span>传真：029-88341667</span><br/>
+						<!--<a href="#" class="hvr-rectangle-in">get in touch</a>-->
+					</div>
+				</div>
+				<!--<div class="col-md-3 contact-grid">
+									<h5>联系方式</h5>
+										<p>西安安诚电力工程有限公司</p>
+										<div class="icon2">
+											<ul>
+												<li><i class="indicate"></i></li>
+													<li><p class="label1">陕西省西安市高新区唐延路旺座现代城E-2601室</p></li>
+													</ul>
+														<ul>
+														<li><i class="phone"></i></li>
+															<li><p class="label1">029-88341667</p></li>
+																</ul>
+																<ul>
+																<li><i class="message"></i></li>
+																	<li><a href="mailto:example@mail.com">029-88341667</a></li>
+																	</ul>
+															</div>
+				</div>-->
+				<!--<div class="contact-section">
+					<div class="container">
+						<div class="contact-grids">
+							<div class="col-md-3 contact-grid">
+									<h5>who we are</h5>
+									<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem seq.dem tumquam modipsae que voloratati andig.</p>
+									<a href="#" class="more">more about us<img src="images/arrow.png"></a>
+								</div>
+								<div class="col-md-3 contact-grid">
+									<h5>get in touch </h5>
+										<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
+										<div class="icon2">
+											<ul>
+												<li><i class="indicate"></i></li>
+													<li><p class="label1">84 Street, City, State 24813</p></li>
+													</ul>
+														<ul>
+														<li><i class="phone"></i></li>
+															<li><p class="label1">+00(123)4567890</p></li>
+																</ul>
+																<ul>
+																<li><i class="message"></i></li>
+																	<li><a href="mailto:example@mail.com">Info@Seen.com</a></li>
+																	</ul>
+															</div>
+								</div>
+								<div class="col-md-3 contact-grid">
+									<h5>latest works</h5>
+									<div class="cont">
+										<div class="contact-leftgrid">
+										<div class="img-grid1">
+										<img src="images/pic7.jpg">
+										</div>
+											<div class="img-grid2">
+										<img src="images/pic8.jpg">
+										</div>
+										<div class="clearfix"></div>
+										</div>
+										
+										<div class="contact-rightgrid">
+										<div class="img-grid3">
+										<img src="images/pic9.jpg">
+										</div>
+											<div class="img-grid4">
+										<img src="images/pic10.jpg">
+										</div>
+										<div class="clearfix"></div>
+										</div>
+										</div>
+										</div>
+								<div class="col-md-3 contact-grid">
+									<h5>free update</h5>
+										<p>Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.Laceaque eictemperum quiae sitiorem tumquam.</p>
+											<div class="subscribe">
+											<form>
+											<input type="text" class="text" value="Your email..." onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = ' Enter your email';}">
+											<input type="submit" value="Subscribe">
+											</form>
+											</div>
+									</div>
+									<div class="clearfix"></div>
+							</div>
+						</div>
+				</div>-->
+				<div class="footer-section">
+					<div class="container">
+						<div class="footer-center">
+							<p>版权所有&copy; 2017. 西安安诚电力工程有限公司</p>
+						</div>
+							<!--<div class="bottom-menu">
+								<ul>
+								<li><a href="index.html" class="active">home</a></li>
+								<li><a href="portfolio.html">portfolio</a></li>
+								<li><a href="blog.html">blog</a></li>
+								<li><a href="pages.html">pages</a></li>
+								<li><a href="features.html">features</a></li>
+								<li><a href="contact.html">contact</a></li>
+								</ul>
+							</div>-->
+							<div class="clearfix"></div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>				
+				</div>
+</body>
+</html>

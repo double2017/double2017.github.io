@@ -2882,5 +2882,40 @@ background: rgba(245, 245, 245, 0.9);
 		}
 	}
 	.logo {
-		margin-top: -40px;
+		margin-top: -25px;
+		margin-left: -100px;
+	}
+	.logotext {
+		font-size: 14px;
+		color: #000;
+		font-weight: bold;
+		margin-left: 10px;
+	}
+	.navbar-nav {
+		float: left;
+	}
+	.navbar-collapse {
+		max-height: 340px;
+		padding-right: 0px;
+		padding-left: 0px;
+		position: absolute;
+		left: 200px;
+	}
+	.navbar-brand {
+		float: left;
+		height: 0;
+		padding: 40px 0px;
+		font-size: 18px;
+		line-height: 30px;
+		margin-top: -45px;
+	}
+	.header-top {
+		background: rgba(232, 232, 232, 0.35);
+		height: 3em;
+		padding: 1em 0;
+		display: none;
+	}
+	.beautifull {
+		padding: 4em 0;
+		display: none;
 	}

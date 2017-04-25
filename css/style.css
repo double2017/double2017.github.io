@@ -212,6 +212,8 @@ i.phone {
 	top: 40%;
 	left: 20%;
 	text-align:center;
+	background: #193363;
+	opacity: 0.5;
 }
 .caption h3{
 	color: #ffffff;
@@ -1721,9 +1723,8 @@ background: rgba(245, 245, 245, 0.9);
 		}
 	}
 @media (max-width: 768px){
-		 
 		.header-bottom {
-			padding: 0.5em 0;
+			padding: 1.5em 0;
 		}
 		.navbar-brand h1 a {
 			text-decoration: none;
@@ -1765,7 +1766,14 @@ background: rgba(245, 245, 245, 0.9);
 		.caption p {
 			font-size: 1.05em;
 		}
-		.beautifull {
+		.rslides img {
+			display: block;
+			height: 450PX;
+		}
+		.caption.text {
+			margin-top: 120px;
+		}
+		.beautifull {	
 			padding: 3em 0;
 		}
 		.beautifull-header h4 {
@@ -2051,7 +2059,7 @@ background: rgba(245, 245, 245, 0.9);
 
 		
 @media (max-width: 640px){
-		.navbar-nav {
+.navbar-nav {
     float: none;
     margin: 0;
     text-align: center;
@@ -2096,6 +2104,10 @@ background: rgba(245, 245, 245, 0.9);
 		.caption p {
 			font-size: 1.05em;
 			margin:0.5em auto 0;
+		}
+		.rslides img {
+			display: block;
+			height: 350PX;
 		}
 		a.morebtn {
 			margin: 1em auto 0;
@@ -2323,6 +2335,10 @@ background: rgba(245, 245, 245, 0.9);
 		}
 		.caption h3 {
 		  font-size: 1.5em;
+		}
+		.rslides img {
+			display: block;
+			height: 250PX;
 		}
 		.social-icons i{
 			margin-left:0.5em;
@@ -2585,9 +2601,17 @@ background: rgba(245, 245, 245, 0.9);
 	}
 	
 @media (max-width: 320px){
+		.logo {
+			margin-top: -55px;
+			margin-left: -10px;
+		}
 		.social-icons {
 			float: right;
 			display: none;
+		}
+		.slider{
+			
+			margin-top:100px;
 		}
 		.icon {
 			float: none;
@@ -2614,7 +2638,7 @@ background: rgba(245, 245, 245, 0.9);
 	   }
 		.rslides img {
 			display: block;
-			height: 150PX;
+			height: 250PX;
 		}
 		a.morebtn {
 			margin: 0.8em auto;
@@ -2883,7 +2907,6 @@ background: rgba(245, 245, 245, 0.9);
 	}
 	.logo {
 		margin-top: -25px;
-		margin-left: -100px;
 	}
 	.logotext {
 		font-size: 14px;
@@ -2891,16 +2914,16 @@ background: rgba(245, 245, 245, 0.9);
 		font-weight: bold;
 		margin-left: 10px;
 	}
-	.navbar-nav {
+	/*.navbar-nav {
 		float: left;
-	}
-	.navbar-collapse {
+	}*/
+	/*.navbar-collapse {
 		max-height: 340px;
 		padding-right: 0px;
 		padding-left: 0px;
 		position: absolute;
 		left: 200px;
-	}
+	}*/
 	.navbar-brand {
 		float: left;
 		height: 0;
@@ -2919,3 +2942,29 @@ background: rgba(245, 245, 245, 0.9);
 		padding: 4em 0;
 		display: none;
 	}
+	.container {
+		width: 100%;
+		position: fixed;
+		z-index: 9999;
+		background: #FFFFFF;
+	}
+	#acdl_nav_content {
+		margin-top: 17px;
+		background: #FFFFFF;
+	}
+	/*.caption {
+		width: 60%;
+		position: absolute;
+		top: 40%;
+		left: 20%;
+		text-align: center;
+		background: #193363;
+		opacity: 0.5;
+	}
+	.caption h3 {
+		color: #ffffff;
+		font-weight: 400;
+		font-size: 3.5em;
+		text-transform: uppercase;
+		font-family: Microsoft Yahei;
+	}*/

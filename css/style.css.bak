@@ -1720,8 +1720,7 @@ background: rgba(245, 245, 245, 0.9);
 			padding: 10px 15px 10px;
 		}
 	}
-@media (max-width: 768px){
-		 
+@media (min-width: 640px max-width: 768px){
 		.header-bottom {
 			padding: 0.5em 0;
 		}
@@ -2585,6 +2584,10 @@ background: rgba(245, 245, 245, 0.9);
 	}
 	
 @media (max-width: 320px){
+		.logo {
+			margin-top: -55px;
+			margin-left: -10px;
+		}
 		.social-icons {
 			float: right;
 			display: none;
@@ -2891,16 +2894,16 @@ background: rgba(245, 245, 245, 0.9);
 		font-weight: bold;
 		margin-left: 10px;
 	}
-	.navbar-nav {
+	/*.navbar-nav {
 		float: left;
-	}
-	.navbar-collapse {
+	}*/
+	/*.navbar-collapse {
 		max-height: 340px;
 		padding-right: 0px;
 		padding-left: 0px;
 		position: absolute;
 		left: 200px;
-	}
+	}*/
 	.navbar-brand {
 		float: left;
 		height: 0;
@@ -2913,5 +2916,9 @@ background: rgba(245, 245, 245, 0.9);
 		background: rgba(232, 232, 232, 0.35);
 		height: 3em;
 		padding: 1em 0;
+		display: none;
+	}
+	.beautifull {
+		padding: 4em 0;
 		display: none;
 	}

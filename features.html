@@ -2,9 +2,11 @@
 <html>
 <head>
 <title>组织架构</title>
+<link rel="prefetch" href="css/bootstrap.css" /><!--//预加载css-->
+<link rel="prefetch" href="css/style.css" /><!--//预加载css-->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="西安安诚电力工程有限公司" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -90,10 +92,10 @@
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">业务范围<span class="caret"></span></a>
 										<ul class="dropdown-menu">
-											<li><a href="portfolio.html">风力发电领域</a></li>
-											<li><a href="portfolio.html">火力发电领域</a></li>
-											<li><a href="portfolio.html">光伏发电领域</a></li>
-											<li><a href="portfolio.html">水力发电领域</a></li>
+											<li><a href="portfolio.html">火力发电</a></li>
+											<li><a href="portfolio.html">风力发电</a></li>
+											<li><a href="portfolio.html">太阳能发电</a></li>
+											<li><a href="portfolio.html">水力发电</a></li>
 										</ul>
 									</li>
 									<li><a href="blog.html" class="hoverHide">施工业绩</a></li>
@@ -105,7 +107,7 @@
 							</div><!-- /.navbar-collapse -->
 							
 							
-							<div id="acdl_nav_content">
+	<div id="acdl_nav_content" style="display:none;">
      <div class="lg-container">
          <div class="hw1_menu_section" data-section="hwmm0">
             <div class="row">
@@ -237,7 +239,7 @@
 	 <div class="footer-section">
 					<div class="callbacks_container">
 						<div class="footer-center">
-							<p>版权所有&copy; 2017. 西安安诚电力工程有限公司</p>
+							<p>版权所有&copy; 2017. 西安安诚电力工程有限公司　陕ICP备17010707号</p>
 						</div>
 							
 							<div class="clearfix"></div>
@@ -261,23 +263,32 @@
 				</div>
 			</div>
 <script>
-$("#acdl_nav_content").hide();
-$(".dropdown-menu").hide();
-if($(window).width()>=768){
-$(".dropdown-menu").hide();
-$(".dropdown-toggle").hover(function(){
-$("#acdl_nav_content").show();
+$(document).ready(function(){
+	$("#acdl_nav_content").hide();
+	$(".dropdown-menu").hide();
+	if($(window).width()>=768){
+		$(".dropdown-menu").hide();
+		$(".dropdown-toggle").hover(function(){
+		$("#acdl_nav_content").show();
+		});
+		$(".hoverHide").hover(function(){
+		$("#acdl_nav_content").hide();
+		});
+		//$(".text").show();
+	}else{
+		$(".dropdown-toggle").click(function(){
+		$(".dropdown-menu").show();
+		});
+		//$(".text").hide();
+	}
+	//compatibale mobile phone
+	$(".dropdown").click(function(){
+		if($(".dropdown").attr("class").indexOf("open") > -1){
+			$(".dropdown-menu").css("display","none");
+		}
+	});
 });
-$(".hoverHide").hover(function(){
-$("#acdl_nav_content").hide();
-});
-}else{
-
-$(".dropdown-toggle").click(function(){
-$(".dropdown-menu").show();
-});
-$(".text").hide();
-}
 </script>
+
 </body>
 </html>

@@ -21,6 +21,19 @@
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
+		(function(){
+			var bp = document.createElement('script');
+			var curProtocol = window.location.protocol.split(':')[0];
+			if (curProtocol === 'https'){
+		   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+		  }
+		  else{
+		  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+		  }
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(bp, s);
+		})();
+
 		$(".scroll").click(function(event){		
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
@@ -48,55 +61,50 @@
 </head>
 <body>
 <div class="header" id="home">
-	
-		<div class="header-top">
-		<div class="container">
-			
-				<div class="social-icons">
-				<a href="#"><i class="icon1"></i></a>
-					<a href="#"><i class="icon2"></i></a>
-						<a href="#"><i class="icon3"></i></a>
-							<a href="#"><i class="icon4"></i></a>
-								<a href="#"><i class="icon5"></i></a>
-									<a href="#"><i class="icon6"></i></a>
-								</div>
-		</div>
-		</div>
-		<div class="clearfix"></div>
+<div class="header-top">
+<div class="container">
+<div class="social-icons">
+<a href="http://www.sgcc.com.cn/"><i class="icon6"></i></a>
+<a href="http://www.chinapower.com.cn/"><i class="icon6"></i></a>
+<a href="http://www.cpnn.com.cn/"><i class="icon6"></i></a>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
 <div class="container">
 	   <div class="header-bottom">
 	   <nav class="navbar navbar-default">
 							<div class="container-fluid">
 								<div class="navbar-header">
-									  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-											<span class="sr-only">Toggle navigation</span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-									  </button>
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">安诚电力</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
 									<div class="navbar-brand">
-										<h1><a href="index.html"><img class="logo" src="images/logo.jpg" alt="西安安诚电力工程有限公司"/><span class="logotext">安诚电力</span></a></h1>
+										<h1><a href="http://www.acdl.top/index.html"><img class="logo" src="images/logo.jpg" alt="西安安诚电力工程有限公司"/><span class="logotext">安诚电力</span></a></h1>
 									</div>
 								</div>
 
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							  <ul class="nav navbar-nav">
-									<li><a href="index.html" class="hoverHide">首页 <span class="sr-only">(current)</span></a></li>
-									<li><a href="pages.html" class="hoverHide">公司简介</a></li>
-									<li><a href="features.html" class="hoverHide">组织架构</a></li>
+									<li><a href="http://www.acdl.top/index.html" class="hoverHide">首页</a></li>
+									<li><a href="http://www.acdl.top/pages.html" class="hoverHide">公司简介</a></li>
+									<li><a href="http://www.acdl.top/features.html" class="hoverHide">组织架构</a></li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">业务范围<span class="caret"></span></a>
 										<ul class="dropdown-menu">
-											<li><a href="portfolio.html">火力发电</a></li>
-											<li><a href="portfolio.html">风力发电</a></li>
-											<li><a href="portfolio.html">太阳能发电</a></li>
-											<li><a href="portfolio.html">水力发电</a></li>
+											<li><a href="http://www.acdl.top/portfolio.html">火力发电</a></li>
+											<li><a href="http://www.acdl.top/portfolio.html">风力发电</a></li>
+											<li><a href="http://www.acdl.top/portfolio.html">太阳能发电</a></li>
+											<li><a href="http://www.acdl.top/portfolio.html">水力发电</a></li>
 										</ul>
 									</li>
-									<li><a href="blog.html" class="hoverHide">施工业绩</a></li>
-									<li class="active"><a href="cpstrength.html" class="hoverHide">公司实力</a></li>
+									<li><a href="http://www.acdl.top/blog.html" class="hoverHide">施工业绩</a></li>
+									<li class="active"><a href="cpstrength.html" class="hoverHide">公司实力<span class="sr-only">(current)</span></a></li>
 									
-									<li><a href="contact.html" class="hoverHide">联系方式</a></li>
+									<li><a href="http://www.acdl.top/contact.html" class="hoverHide">联系方式</a></li>
 								</ul>
 							  
 							</div>
@@ -114,7 +122,6 @@
 				<span class="lazy-loaded over"><img src="./images/icon1.png" class="img-responsive center-block lazy" alt="" data-original="http://www-file.huawei.com/-/media/CORPORATE/Images/home/head-pic/phone_nav_p10.png" style="display: block;"></span>
 				</div>
 				<h4>火力发电领域</h4>
-				</a>
 				<a href="portfolio.html" class="hw1_btn" >查看更多 &gt;</a>
 				</div>
 				</div>
@@ -128,7 +135,6 @@
 				<span class="lazy-loaded over"><img src="./images/icon3.png" class="img-responsive center-block lazy" alt="" data-original="http://www-file.huawei.com/-/media/CORPORATE/Images/home/head-pic/phone_nav_p10.png" style="display: block;"></span>
 				</div>
 				<h4>风力发电领域</h4>
-				</a>
 				<a href="portfolio.html" class="hw1_btn" >查看更多 &gt;</a>
 				</div>
 				</div>
@@ -143,7 +149,6 @@
 				<span class="lazy-loaded over"><img src="./images/icon4.png" class="img-responsive center-block lazy" alt="" data-original="http://www-file.huawei.com/-/media/CORPORATE/Images/home/head-pic/phone_nav_p10.png" style="display: block;"></span>
 				</div>
 				<h4>太阳能发电领域</h4>
-				</a>
 				<a href="portfolio.html" class="hw1_btn" >查看更多 &gt;</a>
 				</div>
 				</div>
@@ -157,7 +162,6 @@
 				<span class="lazy-loaded over"><img src="./images/icon2.png" class="img-responsive center-block lazy" alt="" data-original="http://www-file.huawei.com/-/media/CORPORATE/Images/home/head-pic/phone_nav_p10.png" style="display: block;"></span>
 				</div>
 				<h4>水力发电领域</h4>
-				</a>
 				<a href="portfolio.html" class="hw1_btn" >查看更多 &gt;</a>
 				</div>
 				</div>
@@ -302,15 +306,15 @@
 				<h3>最新动态</h3>
 				<div class="comments">
 					<p><span>1、</span>光伏发电领域</p>
-					 <h4><a href="#">国电新疆阿拉山风口电场一期49.5MW风电项目（调试、维保）</a></p>
+					<h4><a href="#">国电新疆阿拉山风口电场一期49.5MW风电项目（调试、维保）</a></h4>
 				</div>
 				<div class="comments">
 					<p><span>2、</span>水力发电领域</p>
-					 <h4><a href="#">国电新疆阿拉山风口电场二期49.5MW风电项目（调试、维保）</a></p>
+					<h4><a href="#">国电新疆阿拉山风口电场二期49.5MW风电项目（调试、维保）</a></h4>
 				</div>
 				<div class="comments">
 					<p><span>2、</span>风力发电领域</p>
-					 <h4><a href="#">国电新疆阿拉山风口电场一期49.5MW风电项目（调试、维保）</a></p>
+					<h4><a href="#">国电新疆阿拉山风口电场一期49.5MW风电项目（调试、维保）</a></h4>
 				</div>
 				</div>
 			</div>
@@ -329,23 +333,36 @@
 					</div>
 				</div>	
 
-	<div class="footer-section">
-					<div class="callbacks_container">
-						<div class="footer-center">
-							<p>版权所有&copy; 2017. 西安安诚电力工程有限公司　陕ICP备17010707号</p>
-						</div>
-							<div class="clearfix"></div>
-							<script type="text/javascript">
-						$(document).ready(function() {
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
-						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-				</div>				
-				</div>
-			</div>
+<div class="footer-section">
+<div class="callbacks_container">
+	<div class="footer-center">
+		<p>版权所有&copy; 2017. 西安安诚电力工程有限公司　陕ICP备17010707号</p>
+	</div>
+<div class="bottom-menu">
+	<ul>
+		<li><a href="http://www.acdl.top/index.html" class="hoverHide">首页</a></li>
+		<li><a href="http://www.acdl.top/pages.html" class="hoverHide">公司简介</a></li>
+		<li><a href="http://www.acdl.top/features.html" class="hoverHide">组织架构</a></li>
+		<li><a href="http://www.acdl.top/portfolio.html" class="hoverHide">业务范围<span></span></a></li>
+		<li><a href="http://www.acdl.top/blog.html" class="hoverHide">施工业绩</a></li>
+		<li class="active"><a href="http://www.acdl.top/cpstrength.html" class="hoverHide">公司实力</a></li>
+		
+		<li><a href="contact.html" class="hoverHide">联系方式</a></li>
+	</ul>
+</div>
+<div class="clearfix"></div>
+<script type="text/javascript">
+$(document).ready(function() {
+
+$().UItoTop({ easingType: 'easeOutQuart' });
+
+});
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>				
+</div>
+</div>
+</div>
 <script>
 $(document).ready(function(){
 	$("#acdl_nav_content").hide();

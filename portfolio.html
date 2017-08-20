@@ -21,6 +21,19 @@
 <script src="js/bootstrap.js"></script>
  <script type="text/javascript">
 		jQuery(document).ready(function($) {
+		(function(){
+			var bp = document.createElement('script');
+			var curProtocol = window.location.protocol.split(':')[0];
+			if (curProtocol === 'https'){
+		   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+		  }
+		  else{
+		  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+		  }
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(bp, s);
+		})();
+
 			$(".scroll").click(function(event){		
 				event.preventDefault();
 				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
@@ -44,46 +57,56 @@
 <body>
 <!-- header -->
 <div class="header" id="home">
+<div class="header-top">
 <div class="container">
-	   <div class="header-bottom">
-	   <nav class="navbar navbar-default">
-							<div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header">
-									  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-											<span class="sr-only">Toggle navigation</span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-									  </button>
-									<div class="navbar-brand">
-										<h1><a href="index.html"><img class="logo" src="images/logo.jpg" alt="西安安诚电力工程有限公司"/><span class="logotext">安诚电力</span></a></h1>
-									</div>
-								</div>
+<div class="social-icons">
+<a href="http://www.sgcc.com.cn/"><i class="icon6"></i></a>
+<a href="http://www.chinapower.com.cn/"><i class="icon6"></i></a>
+<a href="http://www.cpnn.com.cn/"><i class="icon6"></i></a>
+<a href="http://www.baidu.com/"><i class="icon6"></i></a>
+<a href="http://www.hao123.com/"><i class="icon6"></i></a>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="container">
+   <div class="header-bottom">
+   <div class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">安诚电力</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				  </button>
+				<div class="navbar-brand">
+					<h1><a href="http://www.acdl.top/index.html"><img class="logo" src="images/logo.jpg" alt="西安安诚电力工程有限公司"/><span class="logotext">安诚电力</span></a></h1>
+				</div>
+			</div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							  <ul class="nav navbar-nav">
-									<li class="active"><a href="index.html" class="hoverHide">首页 <span class="sr-only">(current)</span></a></li>
-									<li><a href="pages.html" class="hoverHide">公司简介</a></li>
-									<li><a href="features.html" class="hoverHide">组织架构</a></li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">业务范围<span class="caret"></span></a>
-										<ul class="dropdown-menu">
-											<li><a href="portfolio.html">火力发电</a></li>
-											<li><a href="portfolio.html">风力发电</a></li>
-											<li><a href="portfolio.html">太阳能发电</a></li>
-											<li><a href="portfolio.html">水力发电</a></li>
-										</ul>
-									</li>
-									<li><a href="blog.html" class="hoverHide">施工业绩</a></li>
-									<li><a href="cpstrength.html" class="hoverHide">公司实力</a></li>
-									
-									<li><a href="contact.html" class="hoverHide">联系方式</a></li>
-								</ul>
-							  
-							</div><!-- /.navbar-collapse -->
-							
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+					<li><a href="http://www.acdl.top/index.html" class="hoverHide">首页</a></li>
+					<li><a href="http://www.acdl.top/pages.html" class="hoverHide">公司简介</a></li>
+					<li><a href="http://www.acdl.top/features.html" class="hoverHide">组织架构</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">业务范围<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="http://www.acdl.top/portfolio.html">火力发电</a></li>
+							<li><a href="http://www.acdl.top/portfolio.html">风力发电</a></li>
+							<li><a href="http://www.acdl.top/portfolio.html">太阳能发电</a></li>
+							<li><a href="http://www.acdl.top/portfolio.html">水力发电</a></li>
+						</ul>
+					</li>
+					<li><a href="http://www.acdl.top/blog.html" class="hoverHide">施工业绩</a></li>
+					<li><a href="http://www.acdl.top/cpstrength.html" class="hoverHide">公司实力</a></li>
+					
+					<li><a href="http://www.acdl.top/contact.html" class="hoverHide">联系方式</a></li>
+				</ul>
+			  
+			</div>
+</div>							
 <div id="acdl_nav_content" style="display:none;">
      <div class="lg-container">
          <div class="hw1_menu_section" data-section="hwmm0">
@@ -97,7 +120,6 @@
 				<span class="lazy-loaded over"><img src="./images/icon1.png" class="img-responsive center-block lazy" alt="" data-original="http://www-file.huawei.com/-/media/CORPORATE/Images/home/head-pic/phone_nav_p10.png" style="display: block;"></span>
 				</div>
 				<h4>火力发电领域</h4>
-				</a>
 				<a href="portfolio.html" class="hw1_btn" >查看更多 &gt;</a>
 				</div>
 				</div>
@@ -114,7 +136,6 @@
 				<span class="lazy-loaded over"><img src="./images/icon3.png" class="img-responsive center-block lazy" alt="" data-original="http://www-file.huawei.com/-/media/CORPORATE/Images/home/head-pic/phone_nav_p10.png" style="display: block;"></span>
 				</div>
 				<h4>风力发电领域</h4>
-				</a>
 				<a href="portfolio.html" class="hw1_btn" >查看更多 &gt;</a>
 				</div>
 				</div>
@@ -129,7 +150,6 @@
 				<span class="lazy-loaded over"><img src="./images/icon4.png" class="img-responsive center-block lazy" alt="" data-original="http://www-file.huawei.com/-/media/CORPORATE/Images/home/head-pic/phone_nav_p10.png" style="display: block;"></span>
 				</div>
 				<h4>太阳能发电领域</h4>
-				</a>
 				<a href="portfolio.html" class="hw1_btn" >查看更多 &gt;</a>
 				</div>
 				</div>
@@ -143,104 +163,106 @@
 				<span class="lazy-loaded over"><img src="./images/icon2.png" class="img-responsive center-block lazy" alt="" data-original="http://www-file.huawei.com/-/media/CORPORATE/Images/home/head-pic/phone_nav_p10.png" style="display: block;"></span>
 				</div>
 				<h4>水力发电领域</h4>
-				</a>
 				<a href="portfolio.html" class="hw1_btn" >查看更多 &gt;</a>
 				</div>
 				</div>
 				</div>
-			<div>
-		<div>
-	<div>
-<div>
-						
-  </div><!-- /.container-fluid -->
-						</nav>
+			</div>
+		</div>
+	</div>
+</div>			
+</div><!-- /.container-fluid -->
+</div>
+</div>
+<!-- header-section-ends --> 
+<div class="hoverHide header-slider">
+	<div class="slider">
+		<div class="callbacks_container">
+		  <ul >
+			<li>
+			  <img src="images/业务范围/banner4.jpg" width="100%" height="300px" alt="">
+			  <div class="caption">
+			  </div>
+			</li>
+			<li>
+			  <img src="images/业务范围/banner3.jpg" width="100%" height="300px"  alt="">
+			  <div class="caption">
+			  </div>
+			</li>
+			<li>
+			  <img src="images/业务范围/banner1.jpg" width="100%" height="300px"  alt="">
+			  <div class="caption">
+			  </div>
+			</li>
+			<li>
+			  <img src="images/业务范围/banner2.jpg" width="100%" height="300px"  alt="">
+			  <div class="caption">
+			  </div>
+			</li>
+			
+			
+		</ul>
+	  </div>
+  </div>
+</div>
+	
+			<!-- 公司介绍文字 -->
+<div class="hoverHide main page-not-found text-center">
+	<div class="callbacks_container">
+		<p>西安安诚电力工程有限公司（原西安安诚能源技术有限公司成立于2006年）成立于2016年，注册资金1100万，是一家由自然人出资组建的高科技企业。 公司成立之初以火电技术服务为核心发展方向，2009年随着国家提出大力发展"低碳环保，绿色能源"的新能源规划之后，公司积极向风力发电及光伏发电技术服务方向发展。我公司 在坚持"质量第一、安全第一"的原则下，积极开拓市场！本着"精心管理，精心施工、精心调试、全方位服务"的思路，向用户提供优质的工程安装、调试维护技术服务、锅炉燃烧优化 节能技术服务。我公司将牢固树立"安全、规范、时效、节俭"的工作作风，以完善的企业质量体系保证工程质量和优质服务。精湛的技术、规范的管理、优质诚信的服务为西安安诚电力工程公司开拓了广阔的市场，并赢得了众多客户的长期合作，促进了企业健康、快速的发展！我们将秉承着"诚信、严谨、专业、敬业、创新"的企业精神和共享互动、全程服务的客户 理念，为客户、员工创造更高的价值！目前，公司设有综合部、光伏事业部、火电事业部、风电事业部、节能燃烧事业部等，公司业务拓展方向为光伏、火电、风电调试、维护、代运行等技术服务； 循环流化床锅炉(CFB)燃烧优化调整、节能降耗；脱硫脱硝技术服务等，公司业从原先单一的火电技术服务方向实现了向光伏、风电、火电技术服务多向发展的格局，公司现有正式员工130人。 根据国际十二五规划，风电机组每年的新装机容量将在1200万千瓦至1500万千瓦，因此，公司将抓住历史机遇，继续本着光伏、风电、火电并行发展的思路，为实现光伏和风电事业跨域式发展， 火电事业稳步发展的目的而努力！	
+企业宗旨:
+用户至上，技术先导，真诚服务！</p>
+	</div>
+</div>
+<!-- 公司介绍文字 -->
+<div class="hoverHide wantto-section">
+	<div class="callbacks_container">
+		<!--<h4>联系方式</h4>-->
+		<span>地址：西安曲江新区雁翔路3269号旺座曲江E座2203室</span><br/>
+		<span>电话：029-85337786</span><br/>
+		<span>邮政编码：710054</span><br/>
+		<span>传真：029-85337786</span><br/>
+		<!--<a href="#" class="hvr-rectangle-in">get in touch</a>-->
 	</div>
 </div>
 
- <!-- header-section-ends --> 
-	<div class="hoverHide header-slider">
-		<div class="slider">
-			<div class="callbacks_container">
-			  <ul >
-				<li>
-				  <img src="images/业务范围/banner4.jpg" width="100%" height="300px" alt="">
-				  <div class="caption">
-				  </div>
-				</li>
-				<li>
-				  <img src="images/业务范围/banner3.jpg" width="100%" height="300px"  alt="">
-				  <div class="caption">
-				  </div>
-				</li>
-				<li>
-				  <img src="images/业务范围/banner1.jpg" width="100%" height="300px"  alt="">
-				  <div class="caption">
-				  </div>
-				</li>
-				<li>
-				  <img src="images/业务范围/banner2.jpg" width="100%" height="300px"  alt="">
-				  <div class="caption">
-				  </div>
-				</li>
-				
-				
-			</ul>
-		  </div>
-	  </div>
-	 </div>
-	 </div>
-	
-			<!-- 公司介绍文字 -->
-	<div class="hoverHide main page-not-found text-center">
-		<div class="callbacks_container">
-			<p>西安安诚电力工程有限公司（原西安安诚能源技术有限公司成立于2006年）成立于2016年，注册资金1100万，是一家由自然人出资组建的高科技企业。 公司成立之初以火电技术服务为核心发展方向，2009年随着国家提出大力发展"低碳环保，绿色能源"的新能源规划之后，公司积极向风力发电及光伏发电技术服务方向发展。我公司 在坚持"质量第一、安全第一"的原则下，积极开拓市场！本着"精心管理，精心施工、精心调试、全方位服务"的思路，向用户提供优质的工程安装、调试维护技术服务、锅炉燃烧优化 节能技术服务。我公司将牢固树立"安全、规范、时效、节俭"的工作作风，以完善的企业质量体系保证工程质量和优质服务。精湛的技术、规范的管理、优质诚信的服务为西安安诚电力工程公司开拓了广阔的市场，并赢得了众多客户的长期合作，促进了企业健康、快速的发展！我们将秉承着"诚信、严谨、专业、敬业、创新"的企业精神和共享互动、全程服务的客户 理念，为客户、员工创造更高的价值！目前，公司设有综合部、光伏事业部、火电事业部、风电事业部、节能燃烧事业部等，公司业务拓展方向为光伏、火电、风电调试、维护、代运行等技术服务； 循环流化床锅炉(CFB)燃烧优化调整、节能降耗；脱硫脱硝技术服务等，公司业从原先单一的火电技术服务方向实现了向光伏、风电、火电技术服务多向发展的格局，公司现有正式员工130人。 根据国际十二五规划，风电机组每年的新装机容量将在1200万千瓦至1500万千瓦，因此，公司将抓住历史机遇，继续本着光伏、风电、火电并行发展的思路，为实现光伏和风电事业跨域式发展， 火电事业稳步发展的目的而努力！	
-企业宗旨:
-用户至上，技术先导，真诚服务！</p>
-		</div>
-   </div>
-		<!-- 公司介绍文字 -->
-			
-
-	 <div class="hoverHide wantto-section">
-				<div class="callbacks_container">
-					<!--<h4>联系方式</h4>-->
-						<span>地址：西安曲江新区雁翔路3269号旺座曲江E座2203室</span><br/>
-						<span>电话：029-85337786</span><br/>
-						<span>邮政编码：710054</span><br/>
-						<span>传真：029-85337786</span><br/>
-						<!--<a href="#" class="hvr-rectangle-in">get in touch</a>-->
-					</div>
-				</div>
-
-
-
-
-	 <div class="hoverHide footer-section">
-					<div class="callbacks_container">
-						<div class="footer-center">
-							<p>版权所有&copy; 2017. 西安安诚电力工程有限公司　陕ICP备17010707号</p>
-						</div>
-							
-							<div class="clearfix"></div>
-							<script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
-					 		};
-							*/
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
-						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-				</div>				
-				</div>
+<div class="hoverHide footer-section">
+<div class="callbacks_container">
+<div class="footer-center">
+	<p>版权所有&copy; 2017. 西安安诚电力工程有限公司　陕ICP备17010707号</p>
+</div>
+<div class="bottom-menu">
+	<ul>
+		<li><a href="http://www.acdl.top/index.html" class="hoverHide">首页</a></li>
+		<li><a href="http://www.acdl.top/pages.html" class="hoverHide">公司简介</a></li>
+		<li><a href="http://www.acdl.top/features.html" class="hoverHide">组织架构</a></li>
+		<li class="active"><a href="http://www.acdl.top/portfolio.html" class="hoverHide">业务范围<span></span></a></li>
+		<li><a href="http://www.acdl.top/blog.html" class="hoverHide">施工业绩</a></li>
+		<li><a href="http://www.acdl.top/cpstrength.html" class="hoverHide">公司实力</a></li>
+		
+		<li><a href="contact.html" class="hoverHide">联系方式</a></li>
+	</ul>
+</div>													
+<div class="clearfix"></div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+		var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+		};
+		*/
+		
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		
+	});
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>				
+</div>
+</div>
 <script>
 $(document).ready(function(){
 	$("#acdl_nav_content").hide();
